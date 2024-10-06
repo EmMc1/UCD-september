@@ -1,0 +1,14 @@
+body {background-color: yellow;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+    
+    a:link {
+        background-color:white;
+    }
+    
+    H1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        background-color: white;
+    }

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../front-end-web-development"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UCD september"
+	}
+}
