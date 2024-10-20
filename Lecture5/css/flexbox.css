@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px red solid;
+    background-color: #1b1b1b;
+    padding: 10px;
+}
+
+.box{
+    background-color: #767676;
+    colour: #fff;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+    margin: 15px;
+    flex: 1;
+}
+
+.box_menu{
+    color: #fff;
+}

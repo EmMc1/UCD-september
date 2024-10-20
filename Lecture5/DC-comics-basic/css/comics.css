@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul{
+    width: 99%;
+    background-color: blue;
+    overflow: hidden;
+    padding: 10px;
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: lightblue;
+}
+
+
+.Pic1{
+    width:100%;
+    height: 300px;
+    display: block;
+}
+
+.multi-column{
+    columns: 4;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    background-color: blue;
+    float: left;
+    text-align: center;
+}
+
+.Pic2{
+    height: 200px;
+}
+
+.writing{
+    text-align: center;
+}
