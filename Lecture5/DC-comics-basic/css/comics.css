@@ -48,3 +48,54 @@ body{
 .writing{
     text-align: center;
 }
+
+  
+h2{
+    gap: 5px;
+}
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+    display: flex;
+  }
+    
+  .column {
+    float: left;
+    width: 60%;
+    padding: 8px;
+    columns: 2;
+    display: flex;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    
+    display: table;
+  }
+  
+  table {
+    display: flex;
+    justify-content: space-between;
+    border-spacing: 0;
+    width: 60%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
