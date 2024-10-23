@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul{
+    width: 99%;
+    background-color: blue;
+    overflow: hidden;
+    padding: 10px;
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: lightblue;
+}
+
+.Pic1{
+    width:100%;
+    height: 300px;
+    display: block;
+}
+
+.container{
+    display: flex;
+    height: 90vh;}
+
+.box{
+    width: 500px;
+    height: 400px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 100%, 70%);
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{
+    background-color: hsl(201, 100%, 70%);
+}
+
+.Pic2 {height: 300px;
+
+}
+
+.container2{
+    display: flex;
+    height: 70vh;}
+
+.table{
+    width: 500px;
+    height: 300px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#Table1{
+    background-color: navy;
+}
+#Table2{
+    background-color: hsl(52, 100%, 70%);
+}
