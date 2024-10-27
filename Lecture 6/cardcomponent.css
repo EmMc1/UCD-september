@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display:flex;
+}
+
+body{
+    background-color: lightcyan;
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card{
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px;;
+}
+
+.card-image {
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.Sup1{
+    background-image: url('./images/TheFlash.png');
+    height: 300px;
+    
+}
+
+.Sup2{
+    background-image: url('./images/wonder\ woman.png');
+    height: 300px;
+    
+}
+
+.Sup3{
+    background-image: url('./images/Superman.png');
+    height: 300px;
+    
+}
+
+.Sup4{
+    background-image: url('./images/Zatanna.png');
+    height: 300px;
+    
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a{
+    background-color: greenyellow;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    background-color:red ;
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+@media  screen and (max-width: 500px)
+{ body {
+    color: purple;
+}
+
+}
+
+
+
+
