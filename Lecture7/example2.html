@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style> 
+    
+    @keyframes toBall{
+        0%{}
+            
+        50%{
+            border-radius: 100%;
+        }
+        100% {
+            border-radius: 100%;
+        }
+    }
+
+    @keyframes bounce{
+        0%, 100% {}
+        50% {
+            transform: translateY(-20px);
+        }
+        
+    }
+
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: toBall 3s infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">Black Friday is here</div>
+</body>
+</html>

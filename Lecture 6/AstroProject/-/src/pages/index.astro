@@ -1,5 +1,7 @@
 ---
-
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import srcImage from "../assets/logo.png";
 ---
 
 <html lang="en">
@@ -11,6 +13,90 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		
+		<Navigation/>
+		<header>
+			<div class="logo">
+				<img src={srcImage.src}/>
+			</div>
+		</header>
+		
+		<section class="container">
+			<div class="card">
+				<div class="card-image Sup1"></div>
+				<h2>The Flash</h2>
+				<p>Able to run at near light-speeds, his powers provide the ultimate caffeine kick: He can run up buildings, move so swiftly he phases through objects, create sonic booms with the snap of his fingers.</p>
+			<a href="">Read More</a>
+			</div>
+		
+	
+		<div class="card">
+			<div class="card-image Sup2"></div>
+	
+			
+			<h2>Wonder Woman</h2>
+			<p>Wonder Woman is Princess Diana of the immortal Amazons from Greek mythology. Wonder Woman has superhuman strength and speed, as well as the trademark bulletproof bracelets, but it’s probably her Golden Lasso of Truth most people really wish they had.</p>
+			<a href="">Read More</a>
+		</div>
+	
+		<div class="card">
+			<div class="card-image Sup3"></div>
+			<h2>Sperman</h2>
+			<p>Superman has super strength, speed, flight, invulnerability as well as his renowned X-ray and heat vision. The most powerful being on the planet, his amazing abilities are also a melancholy reminder of how different he is from the people he’s dedicated to protect.
+	
+			</p>
+			<a href="">Read More</a>
+		</div>
+	
+		<div class="card">
+			<div class="card-image Sup4"></div>
+			<h2>Zatanna</h2>
+			<p>Intelligent, confident, self-assured and able to manipulate reality itself with her vast magical abilities, Zatanna balances her time as a skilled stage illusionist with battling the dark arts alongside some of the world’s greatest super heroes.
+	
+			</p>
+			<a href="">Read More</a>
+		</div>
+		</section>
+		
+	</div>
+	<div class="table" id="Table2">
+		<div class="column">
+			<table>
+			  <tr>
+				<th>Rank</th>
+				<th>Title</th>
+				<th>Gross</th>
+			  </tr>
+			  <tr>
+				<td>1</td>
+				<td>The Dark Knight</td>
+				<td>$533,345,358</td>
+			  </tr>
+			  <tr>
+				<td>2</td>
+				<td>Wonder Woman</td>
+				<td>$412,563,408</td>
+			  </tr>
+			  <tr>
+				<td>3</td>
+				<td>Batman Vs Superman</td>
+				<td>$412,563,408</td>
+			  </tr>
+			  <tr>
+				<td>4</td>
+				<td>Suicide Squad</td>
+				<td>$412,563,408</td>
+			  </tr>
+			  <tr>
+				<td>5</td>
+				<td>Man of Steel</td>
+				<td>$412,563,408</td>
+			  </tr>
+			  </table>
+			  </div>
+
+	</div>
+
+		
 	</body>
 </html>

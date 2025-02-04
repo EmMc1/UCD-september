@@ -1,0 +1,133 @@
+html {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+  
+  /* nav styles */
+  .navbar ul{
+    list-style-type: none;
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+  .navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+.logo{
+  
+    width:100%;
+    height: 300px;
+    display: block;
+
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.card{
+  background: white;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 15px;;
+}
+
+.card-image {
+  background-color: white;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.Sup1{
+  background-image: url("../assets/TheFlash.png");
+  height: 300px;
+  
+}
+
+.Sup2{
+  background-image: url("../assets/wonderwoman.png");
+  height: 300px;
+  
+}
+
+.Sup3{
+  background-image: url("../assets/Superman.png");
+  height: 300px;
+  
+}
+
+.Sup4{
+  background-image: url("../assets/Zatanna.png");
+  height: 300px;
+  
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a{
+  background-color: greenyellow;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card:hover {
+  background-color:red ;
+  color: blue;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+.table{
+  width: 500px;
+  height: 300px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#Table1{
+  background-color: navy;
+}
+#Table2{
+  background-color: hsl(52, 100%, 70%);
+}

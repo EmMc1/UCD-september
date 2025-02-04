@@ -3,13 +3,9 @@ body{
 }
 
 .navbar ul{
-    width: 99%;
-    background-color: blue;
-    overflow: hidden;
-    padding: 10px;
-    margin:20px;
-    display: flex;
-    justify-content: space-between;
+    list-style-type: space-counter;
+    background-color: aqua;
+   
 }
 
 .navbar a {
